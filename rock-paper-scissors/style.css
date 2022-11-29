@@ -1,0 +1,43 @@
+body {
+  font-family: Poppins, sans-serif;
+}
+
+#gameDiv {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  padding: 25px;
+  border-radius: 28px;
+  background-color: rgb(238, 216, 216);
+}
+
+#playersDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  border: 2px dotted gray;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 36px;
+  margin-bottom: 8px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#playerDiv,
+#computerDiv {
+  width: 200px;
+}
+
+button {
+  padding: 20px 30px;
+  border: 2px solid rosybrown;
+  border-radius: 10px;
+  cursor: pointer;
+}
