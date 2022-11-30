@@ -21,8 +21,7 @@ h1, h3{
     margin: 20px auto 40px auto;
     background-color: white;
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    width: 300px;
+    grid-template-columns: repeat(3, auto);   
 }
 
 .cell{
