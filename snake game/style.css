@@ -20,11 +20,12 @@ h2 {
 }
 
 #gameBoard {
-  width: 400px;
-  height: 400px;
+  /*width: 500px;
+  height: 500px;*/
   margin: 20px auto 40px auto;
   background-color: white;
   border: 3px solid black;
-  display: grid;
-  grid-template-columns: repeat(20, auto);  
+  /*display: grid;
+  grid-template-columns: repeat(20, auto);  */
 }
+
